@@ -18,7 +18,6 @@ import { CarComponent } from './car/car.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { HomeComponent } from './home/home.component';
 
-
 @NgModule({
 
   declarations: [

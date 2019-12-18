@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, Validators} from '@angular/forms';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { HomeComponent } from 'home.component';
+//import { HomeComponent } from '../home/home.component';
 
 
 @Component({
