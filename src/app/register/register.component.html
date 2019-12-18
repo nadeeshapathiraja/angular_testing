@@ -1,0 +1,54 @@
+<div style="margin-top: 60px;" class="container">
+
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <div class="card" style="width: 30rem;">
+                <form [formGroup]="registraionForm">
+                    <h1 style="text-align: center; margin-top: 20px;">Registraion Form</h1>
+
+                    <div style="width: 25rem; margin-left: 2.5rem;" class="example-container">
+
+
+                        <mat-form-field style="margin-top: 10px;">
+                            <input matInput formControlName="fullName" placeholder="Full Name">
+                        </mat-form-field>
+                        <mat-form-field style="margin-top: 10px;">
+                            <input matInput formControlName="address" placeholder="Address">
+                        </mat-form-field>
+                        <mat-form-field style="margin-top: 10px;">
+                            <input matInput formControlName="dob" placeholder="Date Of Birth">
+                        </mat-form-field>
+                        <mat-form-field style="margin-top: 10px;">
+                            <input matInput formControlName="email" placeholder="Email">
+                        </mat-form-field>
+                        <mat-form-field style="margin-top: 10px;">
+                            <input matInput formControlName="Password" placeholder="Password">
+                        </mat-form-field>
+
+                    </div>
+
+                    <div class="row" style="margin-left: 30px;">
+                        <div class="col">
+                            Are You Already Registerd <a style="color: blue;" href="login">signIn</a>
+                            <hr/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+
+                            <button mat-raised-button (click)="getData()" color="primary">SignUp</button>
+                            <button mat-raised-button style="margin-left: 20px;margin-bottom: 30px;" (click)="form.reset()" color="warn">Reset</button>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="col"></div>
+    </div>
+</div>
